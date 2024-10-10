@@ -5,6 +5,8 @@ body {
   padding: 0;
   height: 100%;
   box-sizing: border-box;
+  background-color: #01195C;
+  color:white;
 }
 
 .Home {

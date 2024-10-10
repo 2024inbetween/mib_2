@@ -1,12 +1,12 @@
+.big{
+  font-size:22px;
+}
+
 .event-schedule {
-  font-family: "Hiragino Sans", sans-serif;
-  color: black;
+  color: white;
   font-size: 16px;
-  text-align: center; /* テキストを中央に配置 */
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   margin: 0; /* 不要な外側の余白を削除 */
 }
 
@@ -15,6 +15,12 @@
   flex-direction: column;
   align-items: center; /* コンテンツを中央揃え */
   gap: 10px;
+}
+
+.event-kikan {
+  display: flex;
+  margin-bottom: 10px; /* 各行の間隔 */
+  font-size: 22px;
 }
 
 .event-row {
@@ -27,14 +33,14 @@
 .event-location {
   margin-top: 20px; /* 開催日時と場所の間隔 */
   font-size: 16px;
-  color:black;
-  text-align: center;
+  color:white;
+  text-align: left;
+  padding-left:20px;
+  padding-right:20px;
 }
 
 .event-label {
-  flex-shrink: 0;
-  margin-right: 10px;
-  font-weight: bold;
+  text-align: left;
 }
 
 .event-date-time {
@@ -46,11 +52,12 @@
   margin-right: 20px; /* 日付と時間の間隔 */
 }
 
-.event-location .address {
-  font-size: 14px; /* 住所部分を少し小さく */
-  color: black; /* 住所部分の色を少し淡く */
-}
-
 .event-location p {
   margin: 10px 0; /* 各行の間隔を整える */
+}
+
+.morebutton {
+  display: flex;
+  justify-content: flex-end; /* 子要素を右寄せ */
+  padding-right: 25px; /* 必要に応じて余白を追加 */
 }
