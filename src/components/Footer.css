@@ -2,8 +2,9 @@
   width: 100%; /* 幅を100%に設定 */
   height: 120px;
   position: relative; /* 位置を相対的に設定 */
-  background-color: rgb(1, 25, 92); /* フッター背景色 */
+  background-color: white; /* フッター背景色 */
   padding: 20px 0; /* フッター内の上下パディング */
+  color:#01195C;
 }
 
 @media(max-width:600px){
@@ -71,7 +72,7 @@
 
 
 .footer-link {
-  color: white;
+  color: #01195C;
   font-size: 12; /* 画面幅に基づいたフォントサイズ */
   font-family: "Hiragino Kaku Gothic ProN", sans-serif;
   margin-top: 10px;
@@ -79,7 +80,7 @@
 }
 
 .footer-link a {
-  color: white;  /* 文字色を白に設定 */
+  color: #01195C;
   text-decoration: none;  /* 下線をなくす */
 }
 
@@ -93,7 +94,7 @@
   align-items: center;  /* 中央揃え */
   justify-content: center;
   text-align: center;
-  color: white;
+  color: #01195C;
   font-family: "Hiragino Kaku Gothic ProN", sans-serif;
   font-weight: 300;
 }
@@ -107,7 +108,7 @@
   text-align: center;  /* 中央揃え */
   margin-top: 10px;
   margin-top: 10px;
-  color: white;
+  color: #01195C;
   font-size: 12; /* 画面幅に基づいたフォントサイズ */
   font-family: "Hiragino Kaku Gothic ProN", sans-serif;
   font-weight: 300;
@@ -129,13 +130,13 @@
 
 .footer-follow a {
   margin: 0 10px;
-  color: white;
+  color:#01195C;
   font-size: 24px;
   text-decoration: none;
 }
 
 .footer-follow a:hover {
-  color: #cccccc;
+  color: #01195C;
 }
 
 .footer-email {

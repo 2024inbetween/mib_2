@@ -1,5 +1,5 @@
 import React from 'react';
-import './Date.css';  // CSSをインポート
+import './Dateh.css';  // CSSをインポート
 import MoreButton from'./MoreButton.js'
 
 

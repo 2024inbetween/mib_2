@@ -10,24 +10,20 @@
   margin: 0; /* 不要な外側の余白を削除 */
 }
 
-.event-details {
-  display: flex;
-  flex-direction: column;
-  align-items: center; /* コンテンツを中央揃え */
-  gap: 10px;
-}
-
 .event-kikan {
-  display: flex;
-  margin-bottom: 10px; /* 各行の間隔 */
+  color:white;
+  text-align: left;
+  padding-left:20px;
+  padding-right:20px;
   font-size: 22px;
 }
 
 .event-row {
-  display: flex;
-  justify-content: space-between;
-  width: 350px; /* 日付と時間の幅を調整 */
-  margin-bottom: 10px; /* 各行の間隔 */
+  font-size: 16px;
+  color:white;
+  text-align: left;
+  padding-left:20px;
+  padding-right:20px;
 }
 
 .event-location {
