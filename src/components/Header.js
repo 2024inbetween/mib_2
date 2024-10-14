@@ -13,14 +13,26 @@ function Header() {
   };
 
   return (
-    
     <div className="header-container">
-      {/* 背景の白いボックス */}
+      {/* 背景のボックス */}
       <div className="header-background"></div>
 
-      {/* タイトルテキスト */}
       <div className="header-text-container">
-        <div className="header-text"></div> {/* なにもないのはさみしい？ */}
+        <div className="header-logo">
+          <img
+            src={`${process.env.PUBLIC_URL}/headerlogo.jpg`}
+            alt="Header Logo"
+            style={{
+              width: '100%',
+              height: '80%',
+              objectFit: 'cover',
+              objectPosition: 'center',
+              display:'block',
+              marginLeft:'auto',
+              marginRight:'auto'
+            }}
+          />
+        </div>
       </div>
 
       {/* メニューバーアイコン */}
