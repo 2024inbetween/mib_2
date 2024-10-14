@@ -54,7 +54,9 @@ function App() {
         <Route path="/news/:id" element={<NewsDetail />} />
         <Route path="/works/:id" element={<WorksDetail />} />
       </Routes>
-      <Footer />
+      <div className='footer-bottom'>
+        <Footer />
+      </div>
     </div>
   );
 }

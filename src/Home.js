@@ -2,7 +2,7 @@ import React from 'react'
 import './Home.css'
 import NewNewsh from './components/NewNewsh'
 import Dateh from './components/Dateh'
-import Worksh from './components/Worksh'
+//import Worksh from './components/Worksh'
 
 
 function Home() {
@@ -30,9 +30,9 @@ function Home() {
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center',marginBottom:'80px'}}>
         <NewNewsh />
       </div>
-      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center',marginBottom:'80px'}}>
+      {/*<div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center',marginBottom:'80px'}}>
         <Worksh />
-      </div>
+      </div>*/}
       <div style={{marginBottom:'80px'}}>
         <div style={{fontSize:22}}>
         “MAKING INBETWEEN” とは

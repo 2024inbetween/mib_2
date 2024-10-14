@@ -1,6 +1,7 @@
 import React from 'react';
 import './Dateh.css';  // CSSをインポート
 import MoreButton from'./MoreButton.js'
+import { Link } from 'react-router-dom';
 
 
 function Date() {
@@ -36,7 +37,9 @@ function Date() {
     <p>※名前で検索すると間違った場所が表示されることがあります。住所を使って検索してください。</p>
   </div>
   <div className='morebutton'>
-    <MoreButton />
+    <Link to="/Access" >
+      <MoreButton />
+    </Link>
   </div>
 
 </div>

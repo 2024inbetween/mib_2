@@ -42,9 +42,10 @@ function Header() {
       >
         <div className="menu-item"><Link to="/" onClick={closeMenu}>TOP</Link></div>
         <div className="menu-item"><Link to="/Access" onClick={closeMenu}>ACCESS</Link></div>
-        <div className="menu-item"><Link to="/About" onClick={closeMenu}>ABOUT US</Link></div>
+        <div className="menu-item"><Link to="/News" onClick={closeMenu}>NEWS</Link></div>
+        {/*<div className="menu-item"><Link to="/About" onClick={closeMenu}>ABOUT US</Link></div>
         <div className="menu-item"><Link to="/AboutFont" onClick={closeMenu}>FONT</Link></div>
-        {/* <div className="menu-item"><Link to="/Works" onClick={closeMenu}>WORKS</Link></div>
+        <div className="menu-item"><Link to="/Works" onClick={closeMenu}>WORKS</Link></div>
         <div className="menu-item"><Link to="/News" onClick={closeMenu}>NEWS</Link></div> */}
       </Menu>
     </div>

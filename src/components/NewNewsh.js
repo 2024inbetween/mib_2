@@ -1,7 +1,7 @@
 import React from 'react';
 import './NewNewsh.css';
 import MoreButton from './MoreButton';
-//import {Link} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 
 function NewNewsh() {
   return (
@@ -12,16 +12,18 @@ function NewNewsh() {
           <div className='news-title_2'>
             スペシャルトークセッション開催決定！
           </div>
-          <div className="news-eyecatch">
+          {/*<div className="news-eyecatch">
             *ここに写真を入れる
-          </div>
+          </div>*/}
           <div className="news-row">
             <span>最終日の11月4日(月・祝)に会場内にて、ゲストに造形第六の講師である建築家の千葉学教授と美術家の野老朝雄氏をお招きしてトークセッションを開催することが決定しました。</span>
           </div>
         </div>
       </div>
       <div className='morebutton'>
-        <MoreButton />
+        <Link to="/News" >
+          <MoreButton />
+        </Link>
       </div>
     </div>
       )
